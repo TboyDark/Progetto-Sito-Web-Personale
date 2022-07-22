@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu-container,
+.menu-container:visited{
+    display: flex;
+    justify-content: space-around; 
+    background-color:rgb(63, 57, 61); 
+    align-items: center;
+    padding: 10px;
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;   
+}
+
+.menu{    
+    display: flex;
+    justify-content: space-around;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: row;
+    
+}
+.link-page{
+    margin-left: 100px;    
+}
+.selected {
+    color:rgb(53, 195, 238);    
+}
+.link-page a:link,
+.link-page a:visited{
+    color: rgb(18, 243, 243);
+    text-decoration: none;
+}  
+.link-page a:hover{
+    color:rgb(0, 0, 0);
+}
+.link-page a:selected{
+    color:green;
+}  
