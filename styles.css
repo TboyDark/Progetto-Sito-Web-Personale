@@ -5,6 +5,8 @@
 }
 .menu-container,
 .menu-container:visited{
+    position: fixed;
+    width:  100%;
     display: flex;
     justify-content: space-around; 
     background-color:rgb(63, 57, 61); 
