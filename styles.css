@@ -162,57 +162,6 @@
 @media(min-width: 2560px){
     .github{
         height:602px;
-        font-size:80px;
-    }
-}
-@media(min-width: 400px) and(max-width: 900px){    
-    .text{
-        margin-top: 200px;
-        font-size: 20px;
-    }    
-    .github{
-        padding-left: 200px;
-        margin-top: -2px;
-        font-size: 50px;        
-        
-    }
-    .projects{        
-        padding: 800px;
-        font-size: 50px;
-    }
-    .projects h1{
-        margin-left: -310px;
-    }
-    .contact-page{
-       padding:800px;               
-    }
-    .contacts h1,
-    .contacts p{        
-        font-size: 60px;
-        margin-left: 220px;
-    }
-    .contacts h2{
-        margin-left: 80px;
-        margin-top: 30px;
-        font-size: 60px;        
-    }
-    .form-row button{ 
-        font-size: 60px; 
-        margin-left: 350px;      
-        width: 700px;
-        height:80px;
-        margin-top: 20px;
-        margin-bottom: 90px;
-    }
-    .form-row label{
-        font-size:60px;
-    }
-    .form-row textarea{
-        font-size:60px;
-        padding: 400px;
-    }
-    .form-row input[type="email"]{
-        padding: 30px;
-        font-size:30px;
+        font-size: 80px;
     }
 }
