@@ -123,9 +123,38 @@
     border-radius: 10px; 
     margin-left: 200px;  
 }
+.form-row{
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction:column;
+    flex-wrap: wrap;
+}
 .form-row button:hover{
     background-color:red;
 }
 .form-row button:active{
     background-color:black;
+}
+.form-row input[type="email"]{
+    background-color:#FFFFFF;
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+}
+.form-row textarea{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+    border: 1px solid black;
+    border-radius:3px;
+    min-height:200px;
+    margin-bottom:10px;
+    margin-top: 20px;
+    padding:100px;
+    resize: none;
+}
+.form-row label{
+    margin-bottom: 15px;
 }
