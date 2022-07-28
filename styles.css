@@ -158,3 +158,9 @@
 .form-row label{
     margin-bottom: 15px;
 }
+@media only screen and (min-width:1920) and (max-width: 2560px){
+    .github{        
+        height:602px;
+        font-size:80000px;
+}
+}
