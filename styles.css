@@ -42,41 +42,32 @@
 }
 .selected a:link,
 .selected a:visited{
-    color:rgb(179, 154, 73);
+    color:rgb(190, 125, 3);
     text-decoration:none;
 }
 .selected a:hover{
-  color:rgb(0,0,0);
-}
-.selected a:selected{
-  color:green;
+  color:rgb(255, 255, 255);
 }
 .about-section a:link,
 .about-section a:visited{
-    color: rgb(18, 243, 243);
+    color: rgb(190, 125, 3);
     text-decoration: none;
 }
 .about-section a:hover{
-    color:rgb(0, 0, 0);
-}
-.about-section a:selected{
-    color: green;
+    color:rgb(255, 255, 255);
 }
 .contatto a:link,
 .contatto a:visited{
-  color: #D9381E;
+  color: rgb(190, 125, 3);
   text-decoration: none;
 }
 .contatto a:hover{
-  color: rgb(0,0,0);
-}
-.contatto a:selected{
-  color:green;
+  color: rgb(255, 255, 255);
 }
 .projects{
   margin-top: 190px;
   padding:300px;
-  background-color: rgb(199, 184, 138);;
+  background-color: rgb(114, 116, 231);
 }
 .projects h1{
   margin-bottom: 50px;
@@ -86,6 +77,7 @@
 }
 .about{
   background-color: rgb(201, 182, 98);
+  margin-bottom: -2px;
 }
 .about img{
   margin-top: 50px;
@@ -99,6 +91,13 @@
 .about h2{
   margin-left: 350px;
 }
+.about p{
+  text-indent: 1em;
+  margin-bottom: 0;
+}
+.about p:first-of-type{
+  text-indent:0;
+}
 .github{
     display: flex;
     justify-content: center;
@@ -110,6 +109,8 @@
 .contact-page{
   font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(201, 182, 98);
+  margin-top: -2px;
+  margin-bottom: -40px;
 }
 .form-row h1{
   font-size: 50px;
@@ -212,14 +213,8 @@
 .link-page a:hover{
   color:rgb(0, 0, 0);
 }
-.link-page a:selected{
-  color: green;
-}
 .link-page-h{
   margin-right: 100px;
-}
-.link-page-h a:selected{
-  color: green
 }
 .link-page-h a:link,
 .link-page-h a:visited{
@@ -263,12 +258,15 @@
   justify-content: space-between;
   align-items: center;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(199, 184, 138);
+  background-color: rgb(130, 132, 230);
 
 }
 .projects h1,
 .projects p{
-  margin-top:-200px;
+  margin-top:-200px;  
+}
+.projects h1{
+  margin-right: 40px;
 }
 .contact-page{
   display: flex;
