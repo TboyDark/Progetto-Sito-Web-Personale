@@ -99,19 +99,26 @@
 .about p:first-of-type{
   text-indent:0;
 }
+.text p{
+  margin-left: 120px;
+  margin-right: 120px;
+}
 .github{
     display: flex;
     justify-content: center;
     align-items:center;
     background-color: rgb(114, 116, 231);
     font-size: 50px;
-    height: 300px;
+    height: 300px;    
+}
+.github img{
+  margin-left: 50px;
 }
 .contact-page{
   font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(114, 116, 231);
   margin-top: -2px;
-  margin-bottom: -40px;
+  margin-bottom: -55px;
 }
 .form-row h1{
   font-size: 50px;
