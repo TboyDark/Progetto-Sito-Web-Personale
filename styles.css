@@ -144,8 +144,10 @@ body, html {
   font-size: 20px;
 }
 .about img{
-  margin-left: 35px; 
-  margin-bottom: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
 }
 .portfolio{
   display: flex;
@@ -286,9 +288,9 @@ a:visited{
   font-weight: bold;
 }
 .footer-icons{
-  display: flex;
-  flex-direction: row;
-  margin-left: 120px;  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;  
 }
 .footer-icons img{
   margin-top: 10px;
@@ -341,15 +343,18 @@ a:visited{
   cursor: pointer;	
 }
 @media only screen and (min-width: 300px){
-  .about img{
-    width: auto;
-    margin-left: 20px;
+  .about h1{
+    text-align: center;
+    margin-left: 0;
   }
+  
 }
 @media only screen and (min-width: 400px){
-  .about img{
-    margin-left: 38px;
-  }
+  .about h1{
+    text-align: center;
+    margin-left: 0;
+  }  
+  
 }
 @media only screen and (min-width:700px){     
   .header li{
@@ -368,17 +373,18 @@ a:visited{
     display: none;
   }
   .about h1{
-   margin-left: 280px;
+    text-align: center;
+   margin-left: 0;
   }
-  .about img{
-    margin-left: 180px;
-  }
+  
   .footer-container{
     align-items: center;
     justify-content: center;
   }
   .footer-icons{
-    margin-left: 280px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
   .footer-right input,
   .footer-right textarea{
@@ -390,18 +396,19 @@ a:visited{
 }
 @media only screen and (min-width:800px){
   .about h1{
-    margin-left: 340px;
+    text-align: center;
+    margin-left: 0;
   }
-  .about img{
-    margin-left: 230px;
-  }
+  
   .footer-container{
     align-items: center;
     justify-content: center;
   }
   .footer-icons{
-    margin-left: 335px;
-  }
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }  
   
 }
 @media only screen and (min-width: 1000px){  
@@ -411,10 +418,6 @@ a:visited{
   .about h1{
     text-align: center;
     margin-left: 0;
-  }
-  .about img{
-    align-items: center;
-    margin-left: 0;
   }  
   .footer-container{
     display: flex;
@@ -422,10 +425,9 @@ a:visited{
     
   }
   .footer-icons{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 0;   
+    display: block;    
+    margin-left: auto;
+    margin-right: auto;   
   }
   .footer-right p{
     margin-left: 200px;
