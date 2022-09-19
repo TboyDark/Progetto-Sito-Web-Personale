@@ -395,10 +395,7 @@ a:visited{
   }
   
 }
-@media only screen and (min-width: 1000px){
-  *{
-    font-size: 20px;
-  }
+@media only screen and (min-width: 1000px){  
   .about{
     text-align: center;
   }
