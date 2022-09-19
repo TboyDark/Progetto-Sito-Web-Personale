@@ -140,11 +140,11 @@ body, html {
 }
 .about p strong,
 .about p em{  
-  color: black;
+  color: rgb(0, 140, 255);
   font-size: 20px;
 }
 .about img{
-  margin-left: 35px;
+  margin-left: 35px; 
   margin-bottom: 15px;
 }
 .portfolio{
@@ -173,9 +173,7 @@ body, html {
   color: white;  
 }
 .questoSito h3{
-  margin-left: 35px;
-  
-  
+  margin-left: 35px;  
 }
 .questoSito:hover{
   background-color: red;  
@@ -342,6 +340,17 @@ a:visited{
   margin-bottom: 30px;
   cursor: pointer;	
 }
+@media only screen and (min-width: 300px){
+  .about img{
+    width: auto;
+    margin-left: 20px;
+  }
+}
+@media only screen and (min-width: 400px){
+  .about img{
+    margin-left: 38px;
+  }
+}
 @media only screen and (min-width:700px){     
   .header li{
     float: left;    
@@ -406,7 +415,7 @@ a:visited{
   .about img{
     align-items: center;
     margin-left: 0;
-  }
+  }  
   .footer-container{
     display: flex;
     justify-content: space-around;
