@@ -352,12 +352,22 @@ a:visited{
     text-align: center;
     margin-left: 0;
   }
+  .info-wrapper{
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  } 
   
 }
 @media only screen and (min-width: 400px){
   .about h1{
     text-align: center;
     margin-left: 0;
+  } 
+  .info-wrapper{
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
   }  
   
 }
@@ -381,7 +391,11 @@ a:visited{
     text-align: center;
    margin-left: 0;
   }
-  
+  .info-wrapper{
+    max-width: 580px;
+    margin-left: auto;
+    margin-right: auto;
+  }  
   .footer-container{
     align-items: center;
     justify-content: center;
@@ -403,7 +417,7 @@ a:visited{
   .about h1{
     text-align: center;
     margin-left: 0;
-  }  
+  }    
   .footer-container{
     align-items: center;
     justify-content: center;
@@ -425,12 +439,17 @@ a:visited{
   }
   .about p{
     text-align: justify;
-    margin-left: 30em;     
-    margin-right: 30em;
-  }  
+    margin-left: 10em;     
+    margin-right: 10em;
+    
+  } 
+  .info-wrapper{
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  } 
   .experiences-containerOne{
-    margin-left: 30em;
-    margin-right: 30em;
+    text-align: center;
   }
   .footer-container{
     display: flex;
@@ -451,10 +470,8 @@ a:visited{
 }
 @media only screen and (min-width: 2000px){
   .about p{
-    text-align: justify;
-    margin-left: 40em;     
-    margin-right: 40em;
-  }  
+    text-align: justify;    
+  }    
   .experiences-containerOne{
     margin-left: 40em;
     margin-right: 40em;
