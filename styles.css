@@ -15,7 +15,7 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  border-bottom:  2px solid purple;  
+  box-shadow: 1px 1px 4px 0 rgb(46, 45, 46); 
 }
 .hero-text{
   text-align: center;
